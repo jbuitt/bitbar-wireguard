@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Get current status of a Wireguard VPN connection with options to 
-# connect/disconnect. Working with Wireguard, but can work with any 
-# executable VPN. Commands that require admin permissions should be 
+# Get current status of a Wireguard VPN connection with options to
+# connect/disconnect. Working with Wireguard, but can work with any
+# executable VPN. Commands that require admin permissions should be
 # whitelisted with 'visudo', e.g.:
 #
 #johndoe ALL=(ALL) NOPASSWD: /usr/local/bin/wg
@@ -15,6 +15,7 @@
 # <bitbar.dependencies>wireguard,bash</bitbar.dependencies>
 # <bitbar.image>https://www.wireguard.com/img/wireguard.svg</bitbar.image>
 # <bitbar.desc>Displays status of a Wireguard VPN interface with option to connect/disconnect.</bitbar.desc>
+# <bitbar.abouturl>https://github.com/jbuitt/bitbar-wireguard</bitbar.abouturl>
 
 VPN_EXECUTABLE=/usr/local/bin/wg-quick
 VPN_INTERFACE="wg0"
